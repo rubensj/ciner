@@ -1,0 +1,659 @@
+<!-- Content -->
+<div class="container content">
+
+  <!-- SECTION 01 CONTENT -->
+  <div class="row">
+    <!-- FIRST COLUMN -->
+    <div class="col-xs-12 col-md-9">
+
+      <!-- SECTION POSTER -->
+      <div class="section-poster">
+        <div class="col-xs-12 ciner-poster title-separator">
+          <div class="big-item">
+            <%= image_tag("icons/ico_filmes.png", class:"img-responsive icon-title pull-left") %>
+            <span class="title-section">Filmes em cartaz</span>
+          </div>
+          <div class="small-item">
+            <div class="text-right">
+              <a href="#">ver mais</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel Poster -->
+        <div class="carousel slide hidden-lg" data-ride="carousel" data-type="multi" id="carousel-poster" style="display: block; clear: both;">
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="col-md-3 col-sm-6 col-xs-12"><a href="#"><figure><%= image_tag("example_movie_3.jpg", class: "img-responsive") %></figure></a></div>
+            </div>
+            <div class="item">
+              <div class="col-md-3 col-sm-6 col-xs-12"><a href="#"><figure><%= image_tag("example_movie_3.jpg", class: "img-responsive") %></figure></a></div>
+            </div>
+            <div class="item">
+              <div class="col-md-3 col-sm-6 col-xs-12"><a href="#"><figure><%= image_tag("example_movie_3.jpg", class: "img-responsive") %></figure></a></div>
+            </div>
+            <div class="item">
+              <div class="col-md-3 col-sm-6 col-xs-12"><a href="#"><figure><%= image_tag("example_movie_3.jpg", class: "img-responsive") %></figure></a></div>
+            </div>
+            <div class="item">
+              <div class="col-md-3 col-sm-6 col-xs-12"><a href="#"><figure><%= image_tag("example_movie_3.jpg", class: "img-responsive") %></figure></a></div>
+            </div>
+            <div class="item">
+              <div class="col-md-3 col-sm-6 col-xs-12"><a href="#"><figure><%= image_tag("example_movie_3.jpg", class: "img-responsive") %></figure></a></div>
+            </div>
+            <div class="item">
+              <div class="col-md-3 col-sm-6 col-xs-12"><a href="#"><figure><%= image_tag("example_movie_3.jpg", class: "img-responsive") %></figure></a></div>
+            </div>
+            <div class="item">
+              <div class="col-md-3 col-sm-6 col-xs-12"><a href="#"><figure><%= image_tag("example_movie_3.jpg", class: "img-responsive") %></figure></a></div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#carousel-poster" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+          <a class="right carousel-control" href="#carousel-poster" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+        </div>
+        <!-- Carousel Poster -->
+
+        <!-- MOVIES THUMB -->
+        <div class="showcase-poster hidden-xs visible-lg">
+          <div class="movie-poster-item col-xs-12 col-sm-4 col-md-4 col-lg-2">
+            <div class="thumb">
+              <a href="#">
+                <span class="rollover"></span>
+                <%= image_tag("example_movie.jpg", class: "img-responsive") %>
+              </a>
+            </div>
+          </div>
+
+          <div class="movie-poster-item col-xs-12 col-sm-4 col-md-4 col-lg-2">
+            <div class="thumb">
+              <a href="#">
+                <span class="rollover"></span>
+                <%= image_tag("example_movie_2.jpg", class: "img-responsive") %>
+              </a>
+            </div>
+          </div>
+
+          <div class="movie-poster-item col-xs-12 col-sm-4 col-md-4 col-lg-2">
+            <div class="thumb">
+              <a href="#">
+                <span class="rollover"></span>
+                <%= image_tag("example_movie_3.jpg", class: "img-responsive") %>
+              </a>
+            </div>
+          </div>
+
+          <div class="movie-poster-item col-xs-12 col-sm-4 col-md-4 col-lg-2">
+            <div class="thumb">
+              <a href="#">
+                <span class="rollover"></span>
+                <%= image_tag("example_movie.jpg", class: "img-responsive") %>
+              </a>
+            </div>
+          </div>
+
+          <div class="movie-poster-item col-xs-12 col-sm-4 col-md-4 col-lg-2">
+            <div class="thumb">
+              <a href="#">
+                <span class="rollover"></span>
+                <%= image_tag("example_movie_3.jpg", class: "img-responsive") %>
+              </a>
+            </div>
+          </div>
+
+          <div class="movie-poster-item col-xs-12 col-sm-4 col-md-4 col-lg-2">
+            <div class="thumb">
+              <a href="#">
+                <span class="rollover"></span>
+                <%= image_tag("example_movie_3.jpg", class: "img-responsive") %>
+              </a>
+            </div>
+          </div>
+        </div> <!-- MOVIES THUMB -->
+      </div>
+
+
+
+      <!-- SECTION FEATURED -->
+      <div class="section-featured">
+        <div class="col-xs-12 ciner-featured title-separator">
+          <div class="big-item">
+            <%= image_tag("icons/ico_camera.png", class:"img-responsive icon-title pull-left")%>
+            <span class="title-section">Destaques</span>
+          </div>
+          <div class="small-item">
+            <div class="text-right">
+              <a href="#">ver mais</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel Mobile Featured -->
+        <div class="carousel slide hidden-lg" data-ride="carousel" data-type="multi" id="carousel-featured" style="display: block; clear: both;">
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="col-md-3 col-sm-6 col-xs-12"><a href="#"><figure><%= image_tag("example_movie_2.jpg", class: "img-responsive") %></figure></a></div>
+            </div>
+            <div class="item">
+              <div class="col-md-3 col-sm-6 col-xs-12"><a href="#"><figure><%= image_tag("example_movie_2.jpg", class: "img-responsive") %></figure></a></div>
+            </div>
+            <div class="item">
+              <div class="col-md-3 col-sm-6 col-xs-12"><a href="#"><figure><%= image_tag("example_movie_2.jpg", class: "img-responsive") %></figure></a></div>
+            </div>
+            <div class="item">
+              <div class="col-md-3 col-sm-6 col-xs-12"><a href="#"><figure><%= image_tag("example_movie_2.jpg", class: "img-responsive") %></figure></a></div>
+            </div>
+            <div class="item">
+              <div class="col-md-3 col-sm-6 col-xs-12"><a href="#"><figure><%= image_tag("example_movie_2.jpg", class: "img-responsive") %></figure></a></div>
+            </div>
+            <div class="item">
+              <div class="col-md-3 col-sm-6 col-xs-12"><a href="#"><figure><%= image_tag("example_movie_2.jpg", class: "img-responsive") %></figure></a></div>
+            </div>
+            <div class="item">
+              <div class="col-md-3 col-sm-6 col-xs-12"><a href="#"><figure><%= image_tag("example_movie_2.jpg", class: "img-responsive") %></figure></a></div>
+            </div>
+            <div class="item">
+              <div class="col-md-3 col-sm-6 col-xs-12"><a href="#"><figure><%= image_tag("example_movie_2.jpg", class: "img-responsive") %></figure></a></div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#carousel-featured" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+          <a class="right carousel-control" href="#carousel-featured" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+        </div>
+        <!-- Carousel Mobile Featured -->
+
+        <!-- MOVIES THUMB -->
+        <div class="showcase-featured hidden-xs visible-lg">
+          <div class="movie-featured-item col-xs-6 col-sm-4 col-md-2">
+            <div class="thumb">
+              <a href="#">
+                <span class="rollover"></span>
+                <%= image_tag("example_movie.jpg", class: "img-responsive") %>
+              </a>
+            </div>
+          </div>
+
+          <div class="movie-featured-item col-xs-6 col-sm-4 col-md-2">
+            <div class="thumb">
+              <a href="#">
+                <span class="rollover"></span>
+                <%= image_tag("example_movie.jpg", class: "img-responsive") %>
+              </a>
+            </div>
+          </div>
+
+          <div class="movie-featured-item col-xs-6 col-sm-4 col-md-2">
+            <div class="thumb">
+              <a href="#">
+                <span class="rollover"></span>
+                <%= image_tag("example_movie.jpg", class: "img-responsive") %>
+              </a>
+            </div>
+          </div>
+
+          <div class="movie-featured-item col-xs-6 col-sm-4 col-md-2">
+            <div class="thumb">
+              <a href="#">
+                <span class="rollover"></span>
+                <%= image_tag("example_movie.jpg", class: "img-responsive") %>
+              </a>
+            </div>
+          </div>
+
+          <div class="movie-featured-item col-xs-6 col-sm-4 col-md-2">
+            <div class="thumb">
+              <a href="#">
+                <span class="rollover"></span>
+                <%= image_tag("example_movie.jpg", class: "img-responsive") %>
+              </a>
+            </div>
+          </div>
+
+          <div class="movie-featured-item col-xs-6 col-sm-4 col-md-2">
+            <div class="thumb">
+              <a href="#">
+                <span class="rollover"></span>
+                <%= image_tag("example_movie.jpg", class: "img-responsive") %>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- MOVIES THUMB -->
+      </div>
+    </div>
+
+    <!-- SECOND COLUMN -->
+    <div class="col-xs-12 col-md-3">
+      <div class="section-news">
+        <div class="title-separator ciner-news">
+          <div class="big-item">
+            <%= image_tag("icons/ico_news.png", class:"img-responsive icon-title pull-left")%>
+            <span class="title-section">Notícias</span>
+          </div>
+          <div class="small-item">
+            <div class="text-right">
+              <a href="#">ver mais</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- POSTS ITEMS -->
+        <div class="post-item">
+          <h4>The Year of Responsive Design.</h4>
+          <p>2013 was marked as the year of Responsive Web Design (RWD). The Web is filled with big brands...</p>
+          <a href="#" class="btn btn-saiba-mais">saiba mais</a>
+          <span class="pull-right">07/04/2016</span>
+        </div>
+
+        <div class="post-item">
+          <h4>The Year of Responsive Design.</h4>
+          <p>2013 was marked as the year of Responsive Web Design (RWD). The Web is filled with big brands...</p>
+          <a href="#" class="btn btn-saiba-mais">saiba mais</a>
+          <span class="pull-right">07/04/2016</span>
+        </div>
+
+        <div class="post-item">
+          <h4>The Year of Responsive Design.</h4>
+          <p>2013 was marked as the year of Responsive Web Design (RWD). The Web is filled with big brands...</p>
+          <a href="#" class="btn btn-saiba-mais">saiba mais</a>
+          <span class="pull-right">07/04/2016</span>
+        </div>
+
+        <div class="post-item">
+          <h4>The Year of Responsive Design.</h4>
+          <p>2013 was marked as the year of Responsive Web Design (RWD). The Web is filled with big brands...</p>
+          <a href="#" class="btn btn-saiba-mais">saiba mais</a>
+          <span class="pull-right">07/04/2016</span>
+        </div>
+        <!-- POSTS ITEMS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 02 CONTENT -->
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-xs-12 col-md-4 advertise">
+      <figure>
+        <%= image_tag("http://placehold.it/360x300", class: "img-responsive") %>
+      </figure>
+    </div>
+    <div class="col-xs-12 col-md-8">
+      <div class="title-separator ciner-videos">
+        <div class="big-item">
+          <%= image_tag("icons/ico_filme.png", class:"img-responsive icon-title pull-left")%>
+          <span class="title-section">Ciner vídeos</span>
+        </div>
+        <div class="small-item">
+          <div class="text-right">
+            <a href="#">ver mais</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CINER MOVIES -->
+      <div class="ciner-movie col-xs-12 col-sm-6 col-md-4">
+        <div class="thumb">
+          <iframe width="100%" height="220px" src="https://www.youtube.com/embed/eX_iASz1Si8?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="ciner-movie col-xs-12 col-sm-6 col-md-4">
+        <div class="thumb">
+          <iframe src="https://player.vimeo.com/video/146901168?color=ffffff&byline=0&portrait=0" style="min-height: 220px; min-width: 100%;" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="ciner-movie col-xs-12 col-sm-6 col-md-4">
+        <div class="thumb">
+        <iframe src="https://player.vimeo.com/video/137892682?color=ffffff&byline=0&portrait=0" style="min-height: 220px; min-width: 100%;" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 03 CONTENT -->
+
+  <div class="row">
+    <!-- REVIEWS -->
+    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-5">
+      <div class="title-separator ciner-review">
+        <div class="big-item">
+          <%= image_tag("icons/ico_critica.png", class:"img-responsive icon-title pull-left") %>
+          <span class="title-section">Críticas do mês</span>
+        </div>
+        <div class="small-item">
+          <div class="text-right">
+            <a href="#">ver mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews">
+        <div class="review-item">
+          <div class="col-xs-12 col-sm-5 thumb">
+            <figure><%= image_tag("http://placehold.it/400x500", class: "img-responsive") %></figure>
+          </div>
+          <div class="col-xs-12 col-sm-7 resume">
+            <h4 class="title">Batman vs Superman</h4>
+            <span class="subtitle">A origem da justiça</span>
+            <span class="original-title">(Batman Vs Superman: Dawn of Justice)</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat.
+            </p>
+            <a href="#" class="btn btn-saiba-mais">Saiba mais</a>
+          </div>
+        </div>
+
+        <div class="review-item">
+          <div class="col-xs-12 col-sm-5 thumb">
+            <figure><%= image_tag("http://placehold.it/400x500", class: "img-responsive") %></figure>
+          </div>
+          <div class="col-xs-12 col-sm-7 resume">
+            <h4 class="title">Batman vs Superman</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat.
+            </p>
+            <a href="#" class="btn btn-saiba-mais">Saiba mais</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- SOCIAL CINER -->
+    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+      <div class="title-separator ciner-social">
+        <div class="big-item">
+          <%= image_tag("icons/ico_twitter.png", class:"img-responsive icon-title pull-left") %>
+          <span class="title-section">Papo de Ciner</span>
+        </div>
+        <div class="small-item">
+          <div class="text-right">
+            <a href="#">ver mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="social">
+        <div class="social-item">
+          <div class="col-xs-3">
+            <figure style="border-radius: 100%; background: #FDFDFD; padding: 5px;">
+              <%= image_tag("icons/Butterfly_256x256-32.png", class: "img-responsive") %>
+            </figure>
+          </div>
+          <div class="col-xs-9">
+            <h6>Lorem ipsum dolor</h6>
+            <p style="font-size: 12px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet laoreet purus. Vivamus aliquet risus mi. Suspendisse sodales diam nu.
+            </p>
+          </div>
+        </div>
+
+        <div class="social-item">
+          <div class="col-xs-3">
+            <figure style="border-radius: 100%; background: #FDFDFD; padding: 5px;">
+              <%= image_tag("icons/Butterfly_256x256-32.png", class: "img-responsive") %>
+            </figure>
+          </div>
+          <div class="col-xs-9">
+            <h6>Lorem ipsum dolor</h6>
+            <p style="font-size: 12px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet laoreet purus. Vivamus aliquet risus mi. Suspendisse sodales diam nu.
+            </p>
+          </div>
+        </div>
+
+        <div class="social-item">
+          <div class="col-xs-3">
+            <figure style="border-radius: 100%; background: #FDFDFD; padding: 5px;">
+              <%= image_tag("icons/Butterfly_256x256-32.png", class: "img-responsive") %>
+            </figure>
+          </div>
+          <div class="col-xs-9">
+            <h6>Lorem ipsum dolor</h6>
+            <p style="font-size: 12px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet laoreet purus. Vivamus aliquet risus mi. Suspendisse sodales diam nu.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ADVERTISES -->
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3" style="margin-top: 40px;">
+      <div class="col-xs-12 col-sm-6 col-md-offset-2 col-md-4 col-lg-offset-0 col-lg-12 advertises" style="margin-bottom: 20px;">
+        <figure><%= image_tag("http://placehold.it/360x250", class: "img-responsive") %></figure>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-12 advertises">
+        <figure><%= image_tag("http://placehold.it/360x250", class: "img-responsive") %></figure>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" style="margin-top: 30px">
+    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+      <div class="title-separator ciner-discussion">
+        <div class="big-item">
+          <%= image_tag("icons/ico_debate.png", class:"img-responsive icon-title pull-left") %>
+          <span class="title-section">Debate Ciner</span>
+        </div>
+        <div class="small-item">
+          <div class="text-right">
+            <a href="#">ver mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="discussion">
+        <div class="discussion-item">
+          <div class="title">
+            <a href="#">Quem assistiu Batman vs Superman?</a>
+            <span class="author">Criado por João. 13/04/2016</span>
+          </div>
+          <div class="hidden-xs views">
+            <span class="comments"><span class="vermelho">1142</span> comentários</span>
+            <span class="views"><span class="vermelho">6584</span> visualizações</span>
+          </div>
+          <div class="hidden-xs last-comment">
+            <div class="thumb-user">
+              <figure>
+                <%= image_tag("user.jpg", class: "img-responsive") %>
+              </figure>
+            </div>
+            <div class="last-user">
+              <span class="vermelho">último comentário</span>
+              Joana 13/04/2016
+            </div>
+          </div>
+        </div>
+
+        <div class="discussion-item">
+          <div class="title">
+            <a href="#">Quem assistiu Batman vs Superman?</a>
+            <span class="author">Criado por João. 13/04/2016</span>
+          </div>
+          <div class="hidden-xs views">
+            <span class="comments"><span class="vermelho">1142</span> comentários</span>
+            <span class="views"><span class="vermelho">6584</span> visualizações</span>
+          </div>
+          <div class="hidden-xs last-comment">
+            <div class="thumb-user">
+              <figure>
+                <%= image_tag("user.jpg", class: "img-responsive") %>
+              </figure>
+            </div>
+            <div class="last-user">
+              <span class="vermelho">último comentário</span>
+              Joana 13/04/2016
+            </div>
+          </div>
+        </div>
+
+        <div class="discussion-item">
+          <div class="title">
+            <a href="#">Quem assistiu Batman vs Superman?</a>
+            <span class="author">Criado por João. 13/04/2016</span>
+          </div>
+          <div class="hidden-xs views">
+            <span class="comments"><span class="vermelho">1142</span> comentários</span>
+            <span class="views"><span class="vermelho">6584</span> visualizações</span>
+          </div>
+          <div class="hidden-xs last-comment">
+            <div class="thumb-user">
+              <figure>
+                <%= image_tag("user.jpg", class: "img-responsive") %>
+              </figure>
+            </div>
+            <div class="last-user">
+              <span class="vermelho">último comentário</span>
+              Joana 13/04/2016
+            </div>
+          </div>
+        </div>
+
+        <div class="discussion-item">
+          <div class="title">
+            <a href="#">Quem assistiu Batman vs Superman?</a>
+            <span class="author">Criado por João. 13/04/2016</span>
+          </div>
+          <div class="hidden-xs views">
+            <span class="comments"><span class="vermelho">1142</span> comentários</span>
+            <span class="views"><span class="vermelho">6584</span> visualizações</span>
+          </div>
+          <div class="hidden-xs last-comment">
+            <div class="thumb-user">
+              <figure>
+                <%= image_tag("user.jpg", class: "img-responsive") %>
+              </figure>
+            </div>
+            <div class="last-user">
+              <span class="vermelho">último comentário</span>
+              Joana 13/04/2016
+            </div>
+          </div>
+        </div>
+
+        <div class="discussion-item">
+          <div class="title">
+            <a href="#">Quem assistiu Batman vs Superman?</a>
+            <span class="author">Criado por João. 13/04/2016</span>
+          </div>
+          <div class="hidden-xs views">
+            <span class="comments"><span class="vermelho">1142</span> comentários</span>
+            <span class="views"><span class="vermelho">6584</span> visualizações</span>
+          </div>
+          <div class="hidden-xs last-comment">
+            <div class="thumb-user">
+              <figure>
+                <%= image_tag("user.jpg", class: "img-responsive") %>
+              </figure>
+            </div>
+            <div class="last-user">
+              <span class="vermelho">último comentário</span>
+              Joana 13/04/2016
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+      <div class="title-separator ciner-search">
+        <div class="big-item">
+          <%= image_tag("icons/ico_busca.png", class:"img-responsive icon-title pull-left") %>
+          <span class="title-section">Busca de Profissionais</span>
+        </div>
+        <div class="small-item">
+          <div class="text-right">
+            <a href="#">ver mais</a>
+          </div>
+        </div>
+      </div>
+
+      <form action="#" method="POST" class="form-profissionais">
+        <div class="form-group">
+          <select name="tipo_profissional" id="tipo_profissional" class="form-control">
+            <option disabled selected>Tipo profissional</option>
+            <option value="">option</option>
+            <option value="">option</option>
+            <option value="">option</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <select name="idade" id="idade" class="form-control">
+            <option disabled selected>Idade</option>
+            <option value="">option</option>
+            <option value="">option</option>
+            <option value="">option</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <select name="sexo" id="sexo" class="form-control">
+            <option disabled selected>Sexo</option>
+            <option value="">option</option>
+            <option value="">option</option>
+          </select>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-5 form-group">
+            <select name="estado" id="estado" class="form-control">
+              <option disabled selected>Estado</option>
+              <option value="">option</option>
+              <option value="">option</option>
+            </select>
+          </div>
+          <div class="col-xs-7 form-group">
+            <select name="cidade" id="cidade" class="form-control">
+              <option disabled selected>Cidade</option>
+              <option value="">option</option>
+              <option value="">option</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-6 form-group">
+            <select name="raca" id="raca" class="form-control">
+              <option disabled selected>Raça</option>
+              <option value="">option</option>
+              <option value="">option</option>
+            </select>
+          </div>
+          <div class="col-xs-6 form-group">
+            <select name="altura" id="altura" class="form-control">
+              <option disabled selected>Altura</option>
+              <option value="">option</option>
+              <option value="">option</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-4 form-group">
+            <select name="drt" id="drt" class="form-control">
+              <option disabled selected>DRT</option>
+              <option value="">option</option>
+              <option value="">option</option>
+            </select>
+          </div>
+          <div class="col-xs-8 form-group">
+            <select name="manequim" id="manequim" class="form-control">
+              <option disabled selected>Manequim</option>
+              <option value="">option</option>
+              <option value="">option</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" class="btn btn-login">buscar <span class="icon icon-button"></button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>
