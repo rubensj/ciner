@@ -4,4 +4,8 @@ class StaticPagesController < ApplicationController
 
   def minha
   end
+
+  def filmes_series
+  end
+
 end

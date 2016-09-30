@@ -1,0 +1,630 @@
+<div class="container content">
+<!-- SECTION 01 CONTENT -->
+<div class="row">
+  <!-- FIRST COLUMN -->
+  <div class="col-xs-12">
+    <p>Filmes ou séries? Selecione no menu abaixo:</p>
+    <div class="row">
+      <ul class="nav nav-pills tab-movie text-center">
+        <li class="active col-xs-12 col-sm-4"><a href="#tab1" data-toggle="tab">Filmes</a></li>
+        <li class="col-xs-12 col-sm-4"><a href="#tab2" data-toggle="tab">Séries</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-xs-12 tab-content no-padding">
+    <div class="tab-pane active" id="tab1">
+      <div class="col-xs-12 col-sm-12 col-md-8">
+        <div class="visible-sm hidden-md">
+          <div class="ciner-search">
+            <div class="title-separator">
+              <div class="media">
+                <div class="media-left media-middle">
+                  <%= image_tag("icons/ico_busca.png", class:"media-object") %>
+                </div>
+                <div class="media-body media-middle">
+                  <div class="media-heading title-section">Busca de filmes</div>
+                </div>
+              </div>
+            </div>
+            <form action="#" method="POST" class="form-profissionais">
+              <div class="form-group">
+                Ordernar por
+                <select name="ordenar-por" id="ordenar-por" class="form-control">
+                  <option disabled selected>Destaques...</option>
+                  <option value="">option</option>
+                  <option value="">option</option>
+                  <option value="">option</option>
+                </select>
+              </div>
+              <div class="form-group">
+                Filtrar por
+                <select name="filtro" id="filtro" class="form-control">
+                  <option disabled selected>Adicionar filtro...</option>
+                  <option value="">option</option>
+                  <option value="">option</option>
+                  <option value="">option</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-login">buscar <span class="icon icon-button"></span></button>
+              </div>
+            </form>
+          </div>
+          <div class="ciner-gender">
+            <div class="title-separator">
+              <div class="media">
+                <div class="media-left media-middle">
+                  <%= image_tag("icons/ico_busca.png", class:"media-object") %>
+                </div>
+                <div class="media-body media-middle">
+                  <div class="media-heading title-section">Escolha por gênero</div>
+                </div>
+              </div>
+            </div>
+            <form action="#" method="POST" class="form-profissionais">
+              <div class="form-group">
+                <select name="ordenar-por" id="ordenar-por" class="form-control">
+                  <option disabled selected>Selecione...</option>
+                  <option value="">option</option>
+                  <option value="">option</option>
+                  <option value="">option</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-login">buscar <span class="icon icon-button"></span></button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-xs-12 no-padding">
+          <div class="ciner-poster title-separator">
+            <div class="media">
+              <div class="media-left media-middle">
+                <%= image_tag("icons/ico_filmes.png", class:"media-object") %>
+              </div>
+              <div class="media-body media-middle">
+                <div class="media-heading title-section">Filmes em cartaz</div>
+              </div>
+              <div class="media-body text-right media-middle">
+                <a href="#">ver mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 no-padding">
+            <!-- Carousel Poster -->
+            <div class="carousel slide carousel-responsive carousel-showsixmoveone" data-ride="carousel" data-type="multi" data-interval="7000" id="carousel-filmes-cartaz">
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="thumb">
+                      <a href="#">
+                        <span class="rollover"></span>
+                        <img src="http://cdn5.brusimm.com/wp-content/uploads/2012/11/Leonardo-DiCaprio-in-Django-Unchained-movie-poster.jpg?56e547", class:"img-responsive") %>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="thumb">
+                      <a href="#">
+                        <span class="rollover"></span>
+                        <img src="http://36.media.tumblr.com/143922f87874a5bf743d57968a12965c/tumblr_nkwhfq4Hw41u6otn8o1_250.jpg", class:"img-responsive") %>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="thumb">
+                      <a href="#">
+                        <span class="rollover"></span>
+                        <img src="https://i3.bookpage.com/books/images/7183480b20580cf86b23412c4c8a3cb1/medium.jpg", class:"img-responsive") %>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="thumb">
+                      <a href="#">
+                        <span class="rollover"></span>
+                        <img src="http://kino.musu.lv/movies/0137/l_wall_e_large_poster.jpg", class:"img-responsive") %>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="thumb">
+                      <a href="#">
+                        <span class="rollover"></span>
+                        <img src="http://i1.wp.com/curnblog.com/wp-content/uploads/2014/04/wolf-of-wall-street-poster2-610x903.jpg?resize=250%2C370g", class:"img-responsive") %>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                  <div class="thumb">
+                    <a href="#">
+                      <span class="rollover"></span>
+                      <img src="https://4thwallman.files.wordpress.com/2016/04/10-cloverfield-lane-poster.jpg?w=634", class:"img-responsive") %>
+                      </a>
+                      </div>
+                    </div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                  <div class="thumb">
+                    <a href="#">
+                      <span class="rollover"></span>
+                      <img src="http://www.bigmoviezone.com/filmsearch/movies/movie_images/rovingmars_poster_250px.jpg", class:"img-responsive") %>
+                      </a>
+                      </div>
+                    </div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                  <div class="thumb">
+                    <a href="#">
+                      <span class="rollover"></span>
+                      <img src="https://upload.wikimedia.org/wikipedia/en/6/61/The_Lego_Batman_Movie_PromotionalPoster.jpg", class:"img-responsive") %>
+                      </a>
+                      </div>
+                    </div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                  <div class="thumb">
+                    <a href="#">
+                      <span class="rollover"></span>
+                      <img src="http://cdn.pastemagazine.com/www/blogs/lists/assets_c/2011/04/tmntposter-thumb-250x370-50756.jpg", class:"img-responsive") %>
+                      </a>
+                      </div>
+                    </div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                  <div class="thumb">
+                    <a href="#">
+                      <span class="rollover"></span>
+                      <img src="http://horrornews.net/wp-content/uploads/2012/07/The-Day-2011-Movie-Poster.jpg", class:"img-responsive") %>
+                      </a>
+                      </div>
+                    </div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                  <div class="thumb">
+                    <a href="#">
+                      <span class="rollover"></span>
+                      <img src="http://www.alfamovie.com/wp-content/uploads/v_p_images/0000/00/2119887_cover.jpg.jpg-optimized.jpg", class:"img-responsive") %>
+                      </a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <a class="left carousel-control" href="#carousel-filmes-cartaz" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+              <a class="right carousel-control" href="#carousel-filmes-cartaz" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+            </div>
+            <!-- Carousel Poster -->
+          </div>
+        </div>
+        <div class="col-xs-12 no-padding">
+          <div class="ciner-poster title-separator">
+            <div class="media">
+              <div class="media-left media-middle">
+                <%= image_tag("icons/ico_filmes.png", class:"media-object") %>
+              </div>
+              <div class="media-body media-middle">
+                <div class="media-heading title-section">Estreias</div>
+              </div>
+              <div class="media-body text-right media-middle">
+                <a href="#">ver mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 no-padding">
+            <!-- Carousel Poster -->
+            <div class="carousel slide carousel-responsive carousel-showsixmoveone" data-ride="carousel" data-type="multi" data-interval="7000" id="carousel-estreias">
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie_3.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie_2.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie_3.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie_2.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie_3.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie_2.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie_3.jpg", class:"img-responsive") %></div>
+                </div>
+              </div>
+              <a class="left carousel-control" href="#carousel-estreias" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+              <a class="right carousel-control" href="#carousel-estreias" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+            </div>
+            <!-- Carousel Poster -->
+          </div>
+        </div>
+        <div class="col-xs-12 no-padding">
+          <div class="ciner-poster title-separator">
+            <div class="media">
+              <div class="media-left media-middle">
+                <%= image_tag("icons/ico_filmes.png", class:"media-object") %>
+              </div>
+              <div class="media-body media-middle">
+                <div class="media-heading title-section">Em breve</div>
+              </div>
+              <div class="media-body text-right media-middle">
+                <a href="#">ver mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 no-padding">
+            <!-- Carousel Poster -->
+            <div class="carousel slide carousel-responsive carousel-showsixmoveone" data-ride="carousel" data-type="multi" data-interval="7000" id="carousel-em-breve">
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie_3.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie_2.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie_3.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie_2.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie_3.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie_2.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie_3.jpg", class:"img-responsive") %></div>
+                </div>
+              </div>
+              <a class="left carousel-control" href="#carousel-em-breve" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+              <a class="right carousel-control" href="#carousel-em-breve" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+            </div>
+            <!-- Carousel Poster -->
+          </div>
+        </div>
+        <div class="col-xs-12 no-padding">
+          <div class="ciner-poster title-separator">
+            <div class="media">
+              <div class="media-left media-middle">
+                <%= image_tag("icons/ico_filmes.png", class:"media-object") %>
+              </div>
+              <div class="media-body media-middle">
+                <div class="media-heading title-section">Já em DVD</div>
+              </div>
+              <div class="media-body text-right media-middle">
+                <a href="#">ver mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 no-padding">
+            <!-- Carousel Poster -->
+            <div class="carousel slide carousel-responsive carousel-showsixmoveone" data-ride="carousel" data-type="multi" data-interval="7000" id="carousel-em-dvd">
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie_3.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie_2.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie_3.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie_2.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie_3.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie_2.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie.jpg", class:"img-responsive") %></div>
+                </div>
+                <div class="item">
+                  <div class="col-md-4 col-sm-6 col-xs-12"><%= image_tag("example_movie_3.jpg", class:"img-responsive") %></div>
+                </div>
+              </div>
+              <a class="left carousel-control" href="#carousel-em-dvd" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+              <a class="right carousel-control" href="#carousel-em-dvd" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+            </div>
+            <!-- Carousel Poster -->
+          </div>
+        </div>
+      </div>
+      <!-- Filters -->
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <div class="ciner-search hidden-sm">
+          <div class="title-separator">
+            <div class="media">
+              <div class="media-left media-middle">
+                <%= image_tag("icons/ico_busca.png", class:"media-object") %>
+              </div>
+              <div class="media-body media-middle">
+                <div class="media-heading title-section">Busca de filmes</div>
+              </div>
+            </div>
+          </div>
+          <form action="#" method="POST" class="form-profissionais">
+            <div class="form-group">
+              Ordernar por
+              <select name="ordenar-por" id="ordenar-por" class="form-control">
+                <option disabled selected>Destaques...</option>
+                <option value="">option</option>
+                <option value="">option</option>
+                <option value="">option</option>
+              </select>
+            </div>
+            <div class="form-group">
+              Filtrar por
+              <select name="filtro" id="filtro" class="form-control">
+                <option disabled selected>Adicionar filtro...</option>
+                <option value="">option</option>
+                <option value="">option</option>
+                <option value="">option</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-login">buscar <span class="icon icon-button"></span></button>
+            </div>
+          </form>
+        </div>
+        <div class="ciner-gender hidden-sm">
+          <div class="title-separator">
+            <div class="media">
+              <div class="media-left media-middle">
+                <%= image_tag("icons/ico_busca.png", class:"media-object") %>
+              </div>
+              <div class="media-body media-middle">
+                <div class="media-heading title-section">Escolha por gênero</div>
+              </div>
+            </div>
+          </div>
+          <form action="#" method="POST" class="form-profissionais">
+            <div class="form-group">
+              <select name="ordenar-por" id="ordenar-por" class="form-control">
+                <option disabled selected>Selecione...</option>
+                <option value="">option</option>
+                <option value="">option</option>
+                <option value="">option</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-login">buscar <span class="icon icon-button"></span></button>
+            </div>
+          </form>
+        </div>
+        <div class="ciner-most-popular">
+          <div class="title-separator">
+            <div class="media">
+              <div class="media-left media-middle">
+                <%= image_tag("icons/ico_star.png", class:"media-object") %>
+              </div>
+              <div class="media-body media-middle">
+                <div class="media-heading title-section">Mais populares</div>
+              </div>
+              <div class="media-body media-middle text-right">
+                <a href="#">ver mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="most-popular-item col-xs-12 col-sm-6 col-md-12">
+            <div class="media">
+              <div class="media-left">
+                <%= image_tag("example_most_popular.jpg", class:"media-object") %>
+              </div>
+              <div class="media-body media-middle">
+                <div class="title">
+                  <strong>Batman vs Superman</strong>
+                </div>
+                <div class="stats-popular">
+                  <div class="col-xs-12">
+                    <div class="stats-item col-xs-6 col-sm-6 col-md-6 no-padding">
+                      <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDQ0IDQ0IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA0NCA0NCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CiAgPGc+CiAgICA8cGF0aCBkPSJtMjIsMTNjLTUsMC05LDQtOSw5czQsOSA5LDkgOS00IDktOS00LTktOS05em00LjYsOS44bC02LDRjLTAuMiwwLjEtMC4zLDAuMi0wLjYsMC4yLTAuNiwwLTEtMC40LTEtMXYtOGMwLTAuNiAwLjQtMSAxLTEgMC4yLDAgMC40LDAuMSAwLjYsMC4ybDYsNGMwLjMsMC4yIDAuNCwwLjUgMC40LDAuOHMtMC4yLDAuNy0wLjQsMC44eiIgZmlsbD0iI2E0MWU1NiIvPgogICAgPHBhdGggZD0ibTIyLDBjLTEyLjIsMC0yMiw5LjgtMjIsMjJzOS44LDIyIDIyLDIyIDIyLTkuOCAyMi0yMi05LjgtMjItMjItMjJ6bTAsMzVjLTcuMiwwLTEzLTUuOC0xMy0xM3M1LjgtMTMgMTMtMTMgMTMsNS44IDEzLDEzLTUuOCwxMy0xMywxM3oiIGZpbGw9IiNhNDFlNTYiLz4KICA8L2c+Cjwvc3ZnPgo=" /> 5.000
+                    </div>
+                    <div class="stats-item col-xs-6 col-sm-6 col-md-6 no-padding">
+                      <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDQ0IDQ0IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA0NCA0NCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CiAgPGc+CiAgICA8cGF0aCBkPSJtMjIsMTNjLTUsMC05LDQtOSw5czQsOSA5LDkgOS00IDktOS00LTktOS05em00LjYsOS44bC02LDRjLTAuMiwwLjEtMC4zLDAuMi0wLjYsMC4yLTAuNiwwLTEtMC40LTEtMXYtOGMwLTAuNiAwLjQtMSAxLTEgMC4yLDAgMC40LDAuMSAwLjYsMC4ybDYsNGMwLjMsMC4yIDAuNCwwLjUgMC40LDAuOHMtMC4yLDAuNy0wLjQsMC44eiIgZmlsbD0iI2E0MWU1NiIvPgogICAgPHBhdGggZD0ibTIyLDBjLTEyLjIsMC0yMiw5LjgtMjIsMjJzOS44LDIyIDIyLDIyIDIyLTkuOCAyMi0yMi05LjgtMjItMjItMjJ6bTAsMzVjLTcuMiwwLTEzLTUuOC0xMy0xM3M1LjgtMTMgMTMtMTMgMTMsNS44IDEzLDEzLTUuOCwxMy0xMywxM3oiIGZpbGw9IiNhNDFlNTYiLz4KICA8L2c+Cjwvc3ZnPgo=" /> 5.000
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div class="stats-item col-xs-6 col-sm-6 col-md-6 no-padding">
+                      <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDQ0IDQ0IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA0NCA0NCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CiAgPGc+CiAgICA8cGF0aCBkPSJtMjIsMTNjLTUsMC05LDQtOSw5czQsOSA5LDkgOS00IDktOS00LTktOS05em00LjYsOS44bC02LDRjLTAuMiwwLjEtMC4zLDAuMi0wLjYsMC4yLTAuNiwwLTEtMC40LTEtMXYtOGMwLTAuNiAwLjQtMSAxLTEgMC4yLDAgMC40LDAuMSAwLjYsMC4ybDYsNGMwLjMsMC4yIDAuNCwwLjUgMC40LDAuOHMtMC4yLDAuNy0wLjQsMC44eiIgZmlsbD0iI2E0MWU1NiIvPgogICAgPHBhdGggZD0ibTIyLDBjLTEyLjIsMC0yMiw5LjgtMjIsMjJzOS44LDIyIDIyLDIyIDIyLTkuOCAyMi0yMi05LjgtMjItMjItMjJ6bTAsMzVjLTcuMiwwLTEzLTUuOC0xMy0xM3M1LjgtMTMgMTMtMTMgMTMsNS44IDEzLDEzLTUuOCwxMy0xMywxM3oiIGZpbGw9IiNhNDFlNTYiLz4KICA8L2c+Cjwvc3ZnPgo=" /> 5.000
+                    </div>
+                    <div class="stats-item col-xs-6 col-sm-6 col-md-6 no-padding">
+                      <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDQ0IDQ0IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA0NCA0NCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CiAgPGc+CiAgICA8cGF0aCBkPSJtMjIsMTNjLTUsMC05LDQtOSw5czQsOSA5LDkgOS00IDktOS00LTktOS05em00LjYsOS44bC02LDRjLTAuMiwwLjEtMC4zLDAuMi0wLjYsMC4yLTAuNiwwLTEtMC40LTEtMXYtOGMwLTAuNiAwLjQtMSAxLTEgMC4yLDAgMC40LDAuMSAwLjYsMC4ybDYsNGMwLjMsMC4yIDAuNCwwLjUgMC40LDAuOHMtMC4yLDAuNy0wLjQsMC44eiIgZmlsbD0iI2E0MWU1NiIvPgogICAgPHBhdGggZD0ibTIyLDBjLTEyLjIsMC0yMiw5LjgtMjIsMjJzOS44LDIyIDIyLDIyIDIyLTkuOCAyMi0yMi05LjgtMjItMjItMjJ6bTAsMzVjLTcuMiwwLTEzLTUuOC0xMy0xM3M1LjgtMTMgMTMtMTMgMTMsNS44IDEzLDEzLTUuOCwxMy0xMywxM3oiIGZpbGw9IiNhNDFlNTYiLz4KICA8L2c+Cjwvc3ZnPgo=" /> 5.000
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="most-popular-item col-xs-12 col-sm-6 col-md-12">
+            <div class="media">
+              <div class="media-left">
+                <%= image_tag("example_most_popular.jpg", class:"media-object") %>
+              </div>
+              <div class="media-body media-middle">
+                <div class="title">
+                  <strong>Batman vs Superman</strong>
+                </div>
+                <div class="stats-popular">
+                  <div class="col-xs-12">
+                    <div class="stats-item col-xs-6 col-sm-6 col-md-6 no-padding">
+                      <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDQ0IDQ0IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA0NCA0NCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CiAgPGc+CiAgICA8cGF0aCBkPSJtMjIsMTNjLTUsMC05LDQtOSw5czQsOSA5LDkgOS00IDktOS00LTktOS05em00LjYsOS44bC02LDRjLTAuMiwwLjEtMC4zLDAuMi0wLjYsMC4yLTAuNiwwLTEtMC40LTEtMXYtOGMwLTAuNiAwLjQtMSAxLTEgMC4yLDAgMC40LDAuMSAwLjYsMC4ybDYsNGMwLjMsMC4yIDAuNCwwLjUgMC40LDAuOHMtMC4yLDAuNy0wLjQsMC44eiIgZmlsbD0iI2E0MWU1NiIvPgogICAgPHBhdGggZD0ibTIyLDBjLTEyLjIsMC0yMiw5LjgtMjIsMjJzOS44LDIyIDIyLDIyIDIyLTkuOCAyMi0yMi05LjgtMjItMjItMjJ6bTAsMzVjLTcuMiwwLTEzLTUuOC0xMy0xM3M1LjgtMTMgMTMtMTMgMTMsNS44IDEzLDEzLTUuOCwxMy0xMywxM3oiIGZpbGw9IiNhNDFlNTYiLz4KICA8L2c+Cjwvc3ZnPgo=" /> 5.000
+                    </div>
+                    <div class="stats-item col-xs-6 col-sm-6 col-md-6 no-padding">
+                      <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDQ0IDQ0IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA0NCA0NCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CiAgPGc+CiAgICA8cGF0aCBkPSJtMjIsMTNjLTUsMC05LDQtOSw5czQsOSA5LDkgOS00IDktOS00LTktOS05em00LjYsOS44bC02LDRjLTAuMiwwLjEtMC4zLDAuMi0wLjYsMC4yLTAuNiwwLTEtMC40LTEtMXYtOGMwLTAuNiAwLjQtMSAxLTEgMC4yLDAgMC40LDAuMSAwLjYsMC4ybDYsNGMwLjMsMC4yIDAuNCwwLjUgMC40LDAuOHMtMC4yLDAuNy0wLjQsMC44eiIgZmlsbD0iI2E0MWU1NiIvPgogICAgPHBhdGggZD0ibTIyLDBjLTEyLjIsMC0yMiw5LjgtMjIsMjJzOS44LDIyIDIyLDIyIDIyLTkuOCAyMi0yMi05LjgtMjItMjItMjJ6bTAsMzVjLTcuMiwwLTEzLTUuOC0xMy0xM3M1LjgtMTMgMTMtMTMgMTMsNS44IDEzLDEzLTUuOCwxMy0xMywxM3oiIGZpbGw9IiNhNDFlNTYiLz4KICA8L2c+Cjwvc3ZnPgo=" /> 5.000
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div class="stats-item col-xs-6 col-sm-6 col-md-6 no-padding">
+                      <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDQ0IDQ0IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA0NCA0NCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CiAgPGc+CiAgICA8cGF0aCBkPSJtMjIsMTNjLTUsMC05LDQtOSw5czQsOSA5LDkgOS00IDktOS00LTktOS05em00LjYsOS44bC02LDRjLTAuMiwwLjEtMC4zLDAuMi0wLjYsMC4yLTAuNiwwLTEtMC40LTEtMXYtOGMwLTAuNiAwLjQtMSAxLTEgMC4yLDAgMC40LDAuMSAwLjYsMC4ybDYsNGMwLjMsMC4yIDAuNCwwLjUgMC40LDAuOHMtMC4yLDAuNy0wLjQsMC44eiIgZmlsbD0iI2E0MWU1NiIvPgogICAgPHBhdGggZD0ibTIyLDBjLTEyLjIsMC0yMiw5LjgtMjIsMjJzOS44LDIyIDIyLDIyIDIyLTkuOCAyMi0yMi05LjgtMjItMjItMjJ6bTAsMzVjLTcuMiwwLTEzLTUuOC0xMy0xM3M1LjgtMTMgMTMtMTMgMTMsNS44IDEzLDEzLTUuOCwxMy0xMywxM3oiIGZpbGw9IiNhNDFlNTYiLz4KICA8L2c+Cjwvc3ZnPgo=" /> 5.000
+                    </div>
+                    <div class="stats-item col-xs-6 col-sm-6 col-md-6 no-padding">
+                      <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDQ0IDQ0IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA0NCA0NCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CiAgPGc+CiAgICA8cGF0aCBkPSJtMjIsMTNjLTUsMC05LDQtOSw5czQsOSA5LDkgOS00IDktOS00LTktOS05em00LjYsOS44bC02LDRjLTAuMiwwLjEtMC4zLDAuMi0wLjYsMC4yLTAuNiwwLTEtMC40LTEtMXYtOGMwLTAuNiAwLjQtMSAxLTEgMC4yLDAgMC40LDAuMSAwLjYsMC4ybDYsNGMwLjMsMC4yIDAuNCwwLjUgMC40LDAuOHMtMC4yLDAuNy0wLjQsMC44eiIgZmlsbD0iI2E0MWU1NiIvPgogICAgPHBhdGggZD0ibTIyLDBjLTEyLjIsMC0yMiw5LjgtMjIsMjJzOS44LDIyIDIyLDIyIDIyLTkuOCAyMi0yMi05LjgtMjItMjItMjJ6bTAsMzVjLTcuMiwwLTEzLTUuOC0xMy0xM3M1LjgtMTMgMTMtMTMgMTMsNS44IDEzLDEzLTUuOCwxMy0xMywxM3oiIGZpbGw9IiNhNDFlNTYiLz4KICA8L2c+Cjwvc3ZnPgo=" /> 5.000
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="most-popular-item col-xs-12 col-sm-6 col-md-12">
+            <div class="media">
+              <div class="media-left">
+                <%= image_tag("example_most_popular.jpg", class:"media-object") %>
+              </div>
+              <div class="media-body media-middle">
+                <div class="title">
+                  <strong>Batman vs Superman</strong>
+                </div>
+                <div class="stats-popular">
+                  <div class="col-xs-12">
+                    <div class="stats-item col-xs-6 col-sm-6 col-md-6 no-padding">
+                      <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDQ0IDQ0IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA0NCA0NCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CiAgPGc+CiAgICA8cGF0aCBkPSJtMjIsMTNjLTUsMC05LDQtOSw5czQsOSA5LDkgOS00IDktOS00LTktOS05em00LjYsOS44bC02LDRjLTAuMiwwLjEtMC4zLDAuMi0wLjYsMC4yLTAuNiwwLTEtMC40LTEtMXYtOGMwLTAuNiAwLjQtMSAxLTEgMC4yLDAgMC40LDAuMSAwLjYsMC4ybDYsNGMwLjMsMC4yIDAuNCwwLjUgMC40LDAuOHMtMC4yLDAuNy0wLjQsMC44eiIgZmlsbD0iI2E0MWU1NiIvPgogICAgPHBhdGggZD0ibTIyLDBjLTEyLjIsMC0yMiw5LjgtMjIsMjJzOS44LDIyIDIyLDIyIDIyLTkuOCAyMi0yMi05LjgtMjItMjItMjJ6bTAsMzVjLTcuMiwwLTEzLTUuOC0xMy0xM3M1LjgtMTMgMTMtMTMgMTMsNS44IDEzLDEzLTUuOCwxMy0xMywxM3oiIGZpbGw9IiNhNDFlNTYiLz4KICA8L2c+Cjwvc3ZnPgo=" /> 5.000
+                    </div>
+                    <div class="stats-item col-xs-6 col-sm-6 col-md-6 no-padding">
+                      <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDQ0IDQ0IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA0NCA0NCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CiAgPGc+CiAgICA8cGF0aCBkPSJtMjIsMTNjLTUsMC05LDQtOSw5czQsOSA5LDkgOS00IDktOS00LTktOS05em00LjYsOS44bC02LDRjLTAuMiwwLjEtMC4zLDAuMi0wLjYsMC4yLTAuNiwwLTEtMC40LTEtMXYtOGMwLTAuNiAwLjQtMSAxLTEgMC4yLDAgMC40LDAuMSAwLjYsMC4ybDYsNGMwLjMsMC4yIDAuNCwwLjUgMC40LDAuOHMtMC4yLDAuNy0wLjQsMC44eiIgZmlsbD0iI2E0MWU1NiIvPgogICAgPHBhdGggZD0ibTIyLDBjLTEyLjIsMC0yMiw5LjgtMjIsMjJzOS44LDIyIDIyLDIyIDIyLTkuOCAyMi0yMi05LjgtMjItMjItMjJ6bTAsMzVjLTcuMiwwLTEzLTUuOC0xMy0xM3M1LjgtMTMgMTMtMTMgMTMsNS44IDEzLDEzLTUuOCwxMy0xMywxM3oiIGZpbGw9IiNhNDFlNTYiLz4KICA8L2c+Cjwvc3ZnPgo=" /> 5.000
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div class="stats-item col-xs-6 col-sm-6 col-md-6 no-padding">
+                      <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDQ0IDQ0IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA0NCA0NCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CiAgPGc+CiAgICA8cGF0aCBkPSJtMjIsMTNjLTUsMC05LDQtOSw5czQsOSA5LDkgOS00IDktOS00LTktOS05em00LjYsOS44bC02LDRjLTAuMiwwLjEtMC4zLDAuMi0wLjYsMC4yLTAuNiwwLTEtMC40LTEtMXYtOGMwLTAuNiAwLjQtMSAxLTEgMC4yLDAgMC40LDAuMSAwLjYsMC4ybDYsNGMwLjMsMC4yIDAuNCwwLjUgMC40LDAuOHMtMC4yLDAuNy0wLjQsMC44eiIgZmlsbD0iI2E0MWU1NiIvPgogICAgPHBhdGggZD0ibTIyLDBjLTEyLjIsMC0yMiw5LjgtMjIsMjJzOS44LDIyIDIyLDIyIDIyLTkuOCAyMi0yMi05LjgtMjItMjItMjJ6bTAsMzVjLTcuMiwwLTEzLTUuOC0xMy0xM3M1LjgtMTMgMTMtMTMgMTMsNS44IDEzLDEzLTUuOCwxMy0xMywxM3oiIGZpbGw9IiNhNDFlNTYiLz4KICA8L2c+Cjwvc3ZnPgo=" /> 5.000
+                    </div>
+                    <div class="stats-item col-xs-6 col-sm-6 col-md-6 no-padding">
+                      <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDQ0IDQ0IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA0NCA0NCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CiAgPGc+CiAgICA8cGF0aCBkPSJtMjIsMTNjLTUsMC05LDQtOSw5czQsOSA5LDkgOS00IDktOS00LTktOS05em00LjYsOS44bC02LDRjLTAuMiwwLjEtMC4zLDAuMi0wLjYsMC4yLTAuNiwwLTEtMC40LTEtMXYtOGMwLTAuNiAwLjQtMSAxLTEgMC4yLDAgMC40LDAuMSAwLjYsMC4ybDYsNGMwLjMsMC4yIDAuNCwwLjUgMC40LDAuOHMtMC4yLDAuNy0wLjQsMC44eiIgZmlsbD0iI2E0MWU1NiIvPgogICAgPHBhdGggZD0ibTIyLDBjLTEyLjIsMC0yMiw5LjgtMjIsMjJzOS44LDIyIDIyLDIyIDIyLTkuOCAyMi0yMi05LjgtMjItMjItMjJ6bTAsMzVjLTcuMiwwLTEzLTUuOC0xMy0xM3M1LjgtMTMgMTMtMTMgMTMsNS44IDEzLDEzLTUuOCwxMy0xMywxM3oiIGZpbGw9IiNhNDFlNTYiLz4KICA8L2c+Cjwvc3ZnPgo=" /> 5.000
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="most-popular-item col-xs-12 col-sm-6 col-md-12">
+            <div class="media">
+              <div class="media-left">
+                <%= image_tag("example_most_popular.jpg", class:"media-object") %>
+              </div>
+              <div class="media-body media-middle">
+                <div class="title">
+                  <strong>Batman vs Superman</strong>
+                </div>
+                <div class="stats-popular">
+                  <div class="col-xs-12">
+                    <div class="stats-item col-xs-6 col-sm-6 col-md-6 no-padding">
+                      <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDQ0IDQ0IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA0NCA0NCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CiAgPGc+CiAgICA8cGF0aCBkPSJtMjIsMTNjLTUsMC05LDQtOSw5czQsOSA5LDkgOS00IDktOS00LTktOS05em00LjYsOS44bC02LDRjLTAuMiwwLjEtMC4zLDAuMi0wLjYsMC4yLTAuNiwwLTEtMC40LTEtMXYtOGMwLTAuNiAwLjQtMSAxLTEgMC4yLDAgMC40LDAuMSAwLjYsMC4ybDYsNGMwLjMsMC4yIDAuNCwwLjUgMC40LDAuOHMtMC4yLDAuNy0wLjQsMC44eiIgZmlsbD0iI2E0MWU1NiIvPgogICAgPHBhdGggZD0ibTIyLDBjLTEyLjIsMC0yMiw5LjgtMjIsMjJzOS44LDIyIDIyLDIyIDIyLTkuOCAyMi0yMi05LjgtMjItMjItMjJ6bTAsMzVjLTcuMiwwLTEzLTUuOC0xMy0xM3M1LjgtMTMgMTMtMTMgMTMsNS44IDEzLDEzLTUuOCwxMy0xMywxM3oiIGZpbGw9IiNhNDFlNTYiLz4KICA8L2c+Cjwvc3ZnPgo=" /> 5.000
+                    </div>
+                    <div class="stats-item col-xs-6 col-sm-6 col-md-6 no-padding">
+                      <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDQ0IDQ0IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA0NCA0NCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CiAgPGc+CiAgICA8cGF0aCBkPSJtMjIsMTNjLTUsMC05LDQtOSw5czQsOSA5LDkgOS00IDktOS00LTktOS05em00LjYsOS44bC02LDRjLTAuMiwwLjEtMC4zLDAuMi0wLjYsMC4yLTAuNiwwLTEtMC40LTEtMXYtOGMwLTAuNiAwLjQtMSAxLTEgMC4yLDAgMC40LDAuMSAwLjYsMC4ybDYsNGMwLjMsMC4yIDAuNCwwLjUgMC40LDAuOHMtMC4yLDAuNy0wLjQsMC44eiIgZmlsbD0iI2E0MWU1NiIvPgogICAgPHBhdGggZD0ibTIyLDBjLTEyLjIsMC0yMiw5LjgtMjIsMjJzOS44LDIyIDIyLDIyIDIyLTkuOCAyMi0yMi05LjgtMjItMjItMjJ6bTAsMzVjLTcuMiwwLTEzLTUuOC0xMy0xM3M1LjgtMTMgMTMtMTMgMTMsNS44IDEzLDEzLTUuOCwxMy0xMywxM3oiIGZpbGw9IiNhNDFlNTYiLz4KICA8L2c+Cjwvc3ZnPgo=" /> 5.000
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div class="stats-item col-xs-6 col-sm-6 col-md-6 no-padding">
+                      <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDQ0IDQ0IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA0NCA0NCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CiAgPGc+CiAgICA8cGF0aCBkPSJtMjIsMTNjLTUsMC05LDQtOSw5czQsOSA5LDkgOS00IDktOS00LTktOS05em00LjYsOS44bC02LDRjLTAuMiwwLjEtMC4zLDAuMi0wLjYsMC4yLTAuNiwwLTEtMC40LTEtMXYtOGMwLTAuNiAwLjQtMSAxLTEgMC4yLDAgMC40LDAuMSAwLjYsMC4ybDYsNGMwLjMsMC4yIDAuNCwwLjUgMC40LDAuOHMtMC4yLDAuNy0wLjQsMC44eiIgZmlsbD0iI2E0MWU1NiIvPgogICAgPHBhdGggZD0ibTIyLDBjLTEyLjIsMC0yMiw5LjgtMjIsMjJzOS44LDIyIDIyLDIyIDIyLTkuOCAyMi0yMi05LjgtMjItMjItMjJ6bTAsMzVjLTcuMiwwLTEzLTUuOC0xMy0xM3M1LjgtMTMgMTMtMTMgMTMsNS44IDEzLDEzLTUuOCwxMy0xMywxM3oiIGZpbGw9IiNhNDFlNTYiLz4KICA8L2c+Cjwvc3ZnPgo=" /> 5.000
+                    </div>
+                    <div class="stats-item col-xs-6 col-sm-6 col-md-6 no-padding">
+                      <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDQ0IDQ0IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA0NCA0NCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CiAgPGc+CiAgICA8cGF0aCBkPSJtMjIsMTNjLTUsMC05LDQtOSw5czQsOSA5LDkgOS00IDktOS00LTktOS05em00LjYsOS44bC02LDRjLTAuMiwwLjEtMC4zLDAuMi0wLjYsMC4yLTAuNiwwLTEtMC40LTEtMXYtOGMwLTAuNiAwLjQtMSAxLTEgMC4yLDAgMC40LDAuMSAwLjYsMC4ybDYsNGMwLjMsMC4yIDAuNCwwLjUgMC40LDAuOHMtMC4yLDAuNy0wLjQsMC44eiIgZmlsbD0iI2E0MWU1NiIvPgogICAgPHBhdGggZD0ibTIyLDBjLTEyLjIsMC0yMiw5LjgtMjIsMjJzOS44LDIyIDIyLDIyIDIyLTkuOCAyMi0yMi05LjgtMjItMjItMjJ6bTAsMzVjLTcuMiwwLTEzLTUuOC0xMy0xM3M1LjgtMTMgMTMtMTMgMTMsNS44IDEzLDEzLTUuOCwxMy0xMywxM3oiIGZpbGw9IiNhNDFlNTYiLz4KICA8L2c+Cjwvc3ZnPgo=" /> 5.000
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane" id="tab2">
+      <div class="col-xs-12 col-sm-9">
+        2
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <div class="title-separator ciner-search">
+          <div class="media">
+            <div class="media-left media-middle">
+              <%= image_tag("icons/ico_filmes.png", class:"media-object") %>
+            </div>
+            <div class="media-body media-middle">
+              <div class="media-heading title-section">Busca de séries</div>
+            </div>
+          </div>
+        </div>
+        <form action="#" method="POST" class="form-profissionais">
+          <div class="form-group">
+            Ordernar por
+            <select name="ordenar-por" id="ordenar-por" class="form-control">
+              <option disabled selected>Destaques...</option>
+              <option value="">option</option>
+              <option value="">option</option>
+              <option value="">option</option>
+            </select>
+          </div>
+          <div class="form-group">
+            Filtrar por
+            <select name="filtro" id="filtro" class="form-control">
+              <option disabled selected>Adicionar filtro...</option>
+              <option value="">option</option>
+              <option value="">option</option>
+              <option value="">option</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-login">buscar <span class="icon icon-button"></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
